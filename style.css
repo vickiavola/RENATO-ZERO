@@ -1,0 +1,184 @@
+body {
+     margin: 0;
+   }
+   .inactive {
+     display: none;
+   }
+
+.main_img{
+     display: flex;
+     flex-direction: column;
+     width: auto;
+     height: auto;
+
+}
+
+h2{
+     font-size: 20px;
+}
+
+.network{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+
+.renato{
+     display: flex;
+     flex-direction: row;
+     height: 65px;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+     color: white;
+     font-size: 2rem;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+
+.invitation{
+     display: flex;
+     flex-direction: row;
+     height: 80px;
+     flex-wrap: wrap;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     background-color: #E03A0A;
+     color: white;
+     font-size: 2rem;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+.zero_img{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 0px;
+}
+
+.table{
+     display: flex;
+     flex-direction: row;
+     color:  #E03A0A;
+     background-color: black;
+     justify-content: center;
+     border-collapse: collapse;
+     padding: 0px 20px;
+     letter-spacing: 1px;
+     font-size: 1.5rem;
+}
+
+td, th {
+
+     padding: 10px 30px;
+}
+
+.table-tittle {
+     font-size: 3rem;
+     font-weight: 700;
+}
+
+
+.discografia{
+     display: flex;
+     flex-direction: column;
+     height: auto;
+     align-items: center;
+     background-color: black;
+     color: white;
+     font-size: 2rem;
+     padding: 2rem;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+.tittle{
+     display: flex;
+     flex-direction: row;
+     height: 80px;
+     flex-wrap: wrap;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     background-color: #E03A0A;
+     color: white;
+     font-size: 2rem;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+.paragrafo{
+     font-size: 1.5rem;
+     padding-left: 5rem;
+     padding-right: 5rem;
+     text-align: justify;
+     line-height: 2rem;
+}
+
+.fotos{
+     object-fit: fill;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+
+}
+
+.foto{
+     width: 20rem;
+     height: 100%;
+     object-fit: cover;
+     align-items: center;
+     padding-bottom: 2rem;
+
+}
+
+.lista{
+     font-size: 1.5rem;
+     padding-left: 5rem;
+     padding-right: 5rem;
+     text-align: justify;
+     line-height: 2rem;
+}
+
+.spotify{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     padding: 2rem 2rem;
+}
+
+.video{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+
+     padding: 2rem 2rem;
+}
+
+.footer{
+     display: flex;
+     flex-direction: column;
+     justify-content:center;
+     align-items: center;
+     background-color: gray;
+     padding: 0;
+}
+
+.footer .parole{
+     font-style: italic;
+     font-size: 2rem;
+     padding: 0;
+}
+
+.footer .nome_renato {
+     display: flex;
+     flex-direction: column;
+     font-size: 1.7rem;
+     padding: 0;
+}
